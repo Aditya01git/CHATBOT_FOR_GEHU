@@ -1,0 +1,146 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey, What would you like to know today?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "ability",
+      "patterns": [
+        "What can you do",
+        "What are your abilities",
+        "How can you help"
+      ],
+      "responses": [
+        "I can answer you questions regarding Graphic Era Hill University.",
+        "You can ask me questions regarding Graphic Era Hill University."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting.",
+        "Have a nice day.",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!", 
+        "Any time!", 
+        "My pleasure!"
+      ]
+    },
+    {
+      "tag": "rating",
+      "patterns": [
+        "What is the naac rating?",
+        "naac rating of gehu?",
+        "tell naac rating?"
+      ],
+      "responses": [
+        "GEHU was rated A+ grade and an all India rating of 74.",
+        "NAAC rating of GEHU is 74 in all India with grade A+."
+      ]
+    },
+    {
+      "tag": "btech_fee",
+      "patterns": [
+        "What is fees of Btech course?",
+        "How much is Btech fee?",
+        "How much fees for Btech?"
+      ],
+      "responses": [
+        "Fees of B.Tech is approximately 2 lac per annum but Uttarakhand students get 25% discount on there fees on top of scholarships.",
+        "B.Tech fees is approximately 2 lac per annum and gives Uttarakhand students a 25% discount on there fees on top of scholarships."
+      ]
+    },
+    {
+      "tag": "details",
+      "patterns": [
+        "How to check my student ID",
+        "What is my student ID",
+        "Tell my student ID",
+        "How to check my result",
+        "Where to check result",
+        "Where can i check my marks",
+        "Where can i check my fees details",
+        "How to check fee details"
+      ],
+      "responses": [
+        "You can go to student erp portal at 'https://student.gehu.ac.in' to check all student details.",
+        "Visit 'https://student.gehu.ac.in' to get all student details."
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "What sports are available",
+        "How many sports are in GEHU",
+        "Sports in GEHU"
+      ],
+      "responses": [
+        "We have a basketball court, a vollyball court, a football ground, a badminton court and table tennis facilities available on university grounds.",
+        "We have  basketball, vollyball, football, badminton and table tennis facilities available in our University."
+      ]
+    },
+    {
+      "tag": "founder",
+      "patterns": [
+        "Who is the founder of graphic era",
+        "Who is the founder of GEHU",
+        "Tell the founder of GEHU"
+      ],
+      "responses": [
+        "Founder of GEHU is Prof. Kamal Ghansala.",
+        "Prof. Kamal Ghansala is the founder of Graphic Era."
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "Who are the faculties of GEHU",
+        "List the faculties of Graphic Era",
+        "What are names of faculties"
+      ],
+      "responses": [
+        "You can see all faculty of GEHU on 'https://dehradun.gehu.ac.in/computer-science-and-engineering/faculty/'.",
+        "Visit 'https://dehradun.gehu.ac.in/computer-science-and-engineering/faculty/' to check GEHU faculty list."
+      ]
+    },
+    {
+      "tag": "bus",
+      "patterns": [
+        "How many buses are there",
+        "Amount of buses in GEHU",
+        "No. of buses in GEHU"
+      ],
+      "responses": [
+        "There are approximately 70 buses.",
+        "Approximately 70 buses."
+      ]
+    }
+  ]
+}
